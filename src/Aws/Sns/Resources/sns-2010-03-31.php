@@ -880,10 +880,12 @@ return array (
                     'type' => 'string',
                     'location' => 'aws.query',
                 ),
+                
                 'PhoneNumber' => array(
                     'type' => 'string',
                     'location' => 'aws.query',
                 ),
+
                 'MessageStructure' => array(
                     'type' => 'string',
                     'location' => 'aws.query',
