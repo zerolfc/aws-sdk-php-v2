@@ -996,37 +996,6 @@ return array (
                 ),
             ),
         ),
-        'setSMSAttributes' => array(
-          'httpMethod' => 'POST',
-          'uri' => '/',
-          'class' => 'Aws\\Common\\Command\\QueryCommand',
-          'responseClass' => 'EmptyOutput',
-          'responseType' => 'model',
-          'parameters' => array(
-              'Action' => array(
-                  'static' => true,
-                  'location' => 'aws.query',
-                  'default' => 'setSMSAttributes',
-              ),
-              'Version' => array(
-                  'static' => true,
-                  'location' => 'aws.query',
-                  'default' => '2010-03-31',
-              ),
-              'MonthlySpendLimit' => array(
-                  'type' => 'string',
-                  'location' => 'aws.query',
-              ),
-              'DefaultSenderID' => array(
-                  'type' => 'string',
-                  'location' => 'aws.query',
-              ),
-              'DefaultSMSType' => array(
-                  'type' => 'string',
-                  'location' => 'aws.query',
-              ),
-          ),
-        ),
         'SetEndpointAttributes' => array(
             'httpMethod' => 'POST',
             'uri' => '/',
